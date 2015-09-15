@@ -22,19 +22,19 @@ body{
 }
 .top-left{
     float: left;
-   background-color: blue;
+  // background-color: blue;
 }
 .top-right{
     float: left;
-    background-color:black;
+    //background-color:black;
 }
 .bottom-left{
     float: left;
-    background-color: green;
+    //background-color: green;
 }
 .bottom-right{
     float: left;
-    background-color: yellow;
+    //background-color: yellow;
 }
 .circle{
      position: absolute;
@@ -44,18 +44,19 @@ body{
 .circle-outside{
    left: 42.5%;
     top: 34%;
-    background-color: gray;
+    background-color: white;
     width: 15%;
     height: 33%;
 }
 .circle-inside{
     position: relative;
     overflow: hidden;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    background-color: brown;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    
+    //background-color: brown;
     border-radius: 50%;
 }
 .circle-outside:hover > .circle-inside{
@@ -63,15 +64,16 @@ body{
      position: relative;
      overflow: hidden;
    margin: 10%;
-    width: 80%;
-    height: 80%;
+    width: 79%;
+    height: 79%;
     background-color: brown;
     border-radius: 50%;
 }
 .container-in{
     position: relative;
-    width: 100%;
-    height: 100%;
+    margin: 0.5%;
+    width: 99.5%;
+    height: 99.5%;
     background-color: violet;
 }
 .top-left:hover > .top-left-in{
